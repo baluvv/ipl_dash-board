@@ -1,0 +1,95 @@
+.latest-match-container {
+  width: 100%;
+  padding-top: 18px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+  background-color: #1e293b;
+  border-radius: 8px;
+}
+.latest-match-result-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.result-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+.competing-team {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+}
+.date {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+}
+.venue-status {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+}
+.latest-competing-team-logo {
+  width: 200px;
+  height: 200px;
+}
+.line {
+  color: #ffffff;
+  width: 200%;
+}
+.headings {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+}
+.paragraphs {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 500;
+}
+.result-container2 {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+@media screen and (min-width: 768px) {
+  .result-container2 {
+    display: none;
+  }
+}
+
+.result-container3 {
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .result-container3 {
+    display: none;
+  }
+  .latest-competing-team-logo {
+    align-self: flex-start;
+  }
+}
+
+.remained-matches-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0px;
+}

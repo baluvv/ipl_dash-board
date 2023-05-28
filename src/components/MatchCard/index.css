@@ -1,0 +1,45 @@
+.match-card {
+  height: 400px;
+  width: 26%;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0f172a;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.remained-match-logo {
+  width: 35%;
+}
+.remained-match-team {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.remained-match-result {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+}
+
+.remained-match-status {
+  font-family: 'Bree Serif';
+  color: #ffffff;
+}
+.won {
+  font-family: 'Bree Serif';
+  color: #18ed66;
+  font-size: 22px;
+  font-weight: 500;
+}
+.lose {
+  font-family: 'Bree Serif';
+  color: #e31a1a;
+  font-size: 22px;
+  font-weight: 500;
+}
